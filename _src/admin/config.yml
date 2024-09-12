@@ -1,0 +1,19 @@
+backend:
+  name: github
+  repo: cannabiswire/alysonmartin.com
+  branch: main
+  site_domain: https://alysonmartin.com
+  base_url: https://alysonmartin.com
+  auth_endpoint: /api/auth
+media_folder: images/uploads
+public_folder: /images
+collections:
+  - label: 'Pages'
+    name: 'pages'
+    folder: '_src/pages'
+    create: true
+    slug: '{{slug}}'
+    fields:
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Description', name: 'description', widget: 'text' }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
