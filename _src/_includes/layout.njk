@@ -15,7 +15,6 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
     {% set css %}
-      {% include "_src/assets/water.min.css" %}
       {% include "_src/assets/style.css" %}
     {% endset %}
     <style>{{ css | cssmin | safe }}</style>
@@ -37,6 +36,10 @@
       {% endif %}
     </header>
     <div class="content">
+      {% if title !== 'Home' %}
+        <h2>{{ title }}</h2>
+      {% endif %}
+
       {{ content | safe }}
     </div>
   </body>
