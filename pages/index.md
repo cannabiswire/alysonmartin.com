@@ -17,4 +17,4 @@ I co-authored *[A New Leaf: The End of Cannabis Prohibition](https://thenewpress
 
 I'd love to learn about what you're working on, and areas for collaboration in cannabis, journalism, academia, or all of the above.
 
-Email: alyson at cannabiswire.com • Twitter: [@alysonrmartin](https://twitter.com/alysonrmartin)
+Email: alyson at cannabiswire.com[](https://twitter.com/alysonrmartin)
